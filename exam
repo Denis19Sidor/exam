@@ -1,0 +1,22 @@
+class MathOperations:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def addition(self):
+        return self.num1 + self.num2
+
+    def subtraction(self):
+        return self.num1 - self.num2
+
+# Приклад використання класу
+num1 = 10
+num2 = 5
+
+math_operations_instance = MathOperations(num1, num2)
+
+sum_result = math_operations_instance.addition()
+difference_result = math_operations_instance.subtraction()
+
+print(f"Сума: {sum_result}")
+print(f"Різниця: {difference_result}")
